@@ -1,0 +1,43 @@
+export const SITUACIONES = [
+  { description: "Empleado Municipal", code: "MUN" },
+  { description: "Empleado Provinicial", code: "PRO" },
+  { description: "Empleado Nacional", code: "NAC" },
+  { description: "Fuerzas de Seguridad Nacional", code: "FUE" },
+  { description: "Empleado Privado", code: "PRI" },
+  { description: "Jubilado o Pensionado", code: "JUP" },
+  { description: "Pensión Graciable", code: "GRA" },
+  { description: "Correo Argentino", code: "COR" },
+  { description: "Monotributista", code: "MON" },
+  { description: "Autónomo/Responsable Inscripto", code: "AUT" },
+  { description: "AUH", code: "AUH" },
+  { description: "Otro", code: "OTR" },
+];
+
+export const BANCOS = [
+  { description: "Nación", code: "011" },
+  { description: "BAPRO", code: "014" },
+  { description: "Ciudad", code: "029" },
+  { description: "San Juan", code: "045" },
+  { description: "Santa Fe", code: "330" },
+  { description: "Cordoba", code: "020" },
+  { description: "Supervielle", code: "027" },
+  { description: "Corrientes", code: "094" },
+  { description: "Macro", code: "285" },
+  { description: "BERSA", code: "386" },
+  { description: "Formosa", code: "315" },
+  { description: "Santiago del Estero", code: "321" },
+  { description: "Chaco", code: "311" },
+  { description: "La Rioja", code: "309" },
+  { description: "La Pampa", code: "093" },
+  { description: "BPN", code: "097" },
+  { description: "Patagonia", code: "034" },
+  { description: "Chubut", code: "083" },
+  { description: "Tierra del Fuego", code: "268" },
+  { description: "Santa Cruz", code: "086" },
+  { description: "Banco Santander Rio", code: "072" },
+  { description: "Banco Galicia", code: "007" },
+  { description: "Otro", code: "000" },
+  { description: "Ninguno", code: "999" },
+];
+
+export const SALARIO_MINIMO = 1;
